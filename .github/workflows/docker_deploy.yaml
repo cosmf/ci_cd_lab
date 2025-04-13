@@ -1,3 +1,11 @@
+name: Docker_image
+
+on:
+  push:
+    branches:
+      - main
+
+
 build:
   runs-on: ubuntu-latest
 
