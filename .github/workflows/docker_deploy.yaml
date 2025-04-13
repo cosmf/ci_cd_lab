@@ -21,7 +21,7 @@ build:
       uses: docker/login-action@v3
       with:
         registry: ghcr.io
-        username: ${{ github.actor }}
+        username: ${{ cosmf }}
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build Docker image
