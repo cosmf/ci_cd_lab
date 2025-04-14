@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/cosmf/ci_cd_lab:new-rollout-1
+          image: ghcr.io/cosmf/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
